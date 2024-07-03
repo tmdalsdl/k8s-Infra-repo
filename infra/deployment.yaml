@@ -18,7 +18,7 @@ spec:
       - name: hello-world
         image: $DOCKER_USERNAME/$IMAGE_NAME:v1.10
         ports:
-        - containerPort: 80
+        - containerPort: 8888
         resources:
           limits:
             cpu: 500m
