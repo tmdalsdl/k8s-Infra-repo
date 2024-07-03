@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: $DOCKER_USERNAME/$IMAGE_NAME:v1.10
+        image: lsm12345/hello:v1.26
         ports:
         - containerPort: 8888
         resources:
